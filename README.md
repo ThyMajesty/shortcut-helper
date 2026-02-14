@@ -22,6 +22,10 @@ git clone https://github.com/thymajesty/shortcut-helper.git
 ```bash
 cp -r shortcut-helper ~/.local/share/kwin/scripts/
 ```
+or
+```bash
+ln -s /your/full/path/shortcut-helper ~/.local/share/kwin/scripts/
+```
 
 3. Open **System Settings → KWin Scripts** and enable **Shortcut Helper**.  
 

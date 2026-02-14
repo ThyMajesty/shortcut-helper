@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Name": "Shortcut Helper",
+        "Description": "Shortcut Helper: Win+Up - toggle maximize, Alt-F4 - show logout on desktop",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "yesthymajesty@gmail.com",
+                "Name": "ThyMajesty"
+            }
+        ],
+        "Id": "shortcut-helper",
+        "Version": "1.0.0",
+        "License": "GPLv3",
+        "Website": "https://github.com/ThyMajesty/shortcut-helper"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "X-Plasma-API-Minimum-Version": "6.1",
+    "KPackageStructure": "KWin/Script"
+}
